@@ -12,8 +12,7 @@ export default defineConfig({
             'resources/scss/media-querys.scss',
 
             'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-            'node_modules/jquery/dist/jquery.js',
-            'resources/ts/main.ts'
+            'node_modules/jquery/dist/jquery.js'
         ]),
     ],
 });
