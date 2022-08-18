@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.1;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 280px;
+  border-radius: 0 20px 20px 0;
+}
+
+.content {
+  margin-left: 280px;
+  padding-inline: 1em;
+  padding-top: 2rem;
+}
+
+.nav {
+  font-size: 1.1em;
+}
+
+.nav li:hover {
+  background-color: #424040;
+  border-radius: 1.5em;
+  transform: scale(1.1);
+  transition: all 290ms;
+}
+
+.active {
+  border-radius: 1.5em;
+  background-color: #424040;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5)
+}
+
+.left-content {
+  margin-right: 30px;
+  margin-left: 30px; 
+}
+
+.right-content {
+  width: 100%; 
+}
+
+.right-content .info-rent, .right-content .info-expense, .right-content .info-balanco {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.right-content .info-expense {
+  border-bottom: 1px solid #b5b5b5;
+}
+
+.div-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 100%; 
+}
+
+.chart {
+  width: 25px;
+  margin-right: 10px; 
+}
+
+.chart-icon {
+  border-radius: 25px;
+  transition: width .9s; 
+}
+
+.w-receita {
+  max-height: 130px;
+  color: transparent; 
+}
+
+.w-despesa {
+  max-height: 130px;
+  color: transparent; 
+}
+
+.drop-icon {
+  transition: transform 200ms;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 230ms;
+}
+
+.modal-body {
+    i.icones {
+        position: absolute;
+        top: 44px;
+        font-size: 1.1em;
+    }
+}
+
+input.modalEntry {
+  border: none;
+  box-shadow: none;
+  outline: 0px;
+  width: 100%;
+  padding-left: 35px;
+  padding-bottom: .3em;
+  font-size: 1rem;
+}
+
+#modalRecipe input, #modalExpense input {
+  border-bottom: 1px solid #ccc;
+}
+
+#modalRecipe input:hover, #modalRecipe input:focus {
+  border-bottom: 1px solid #43af7d;
+}
+
+#modalExpense input:hover, #modalExpense input:focus {
+  border-bottom: 1px solid #F44336;
+}
+
+.switch::after {
+  content: '';
+  position: absolute;
+  top: -2.4px;
+  left: -1px;
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  border-radius: 50%;
+  box-shadow: 0.5px 0.5px 3px rgb(0 0 0 / 50%);
+  transition: all .5s;
+}
+
+.checkbox.rent:checked + .switch::after {
+  background: #198754;
+  left: 23px;
+  transition: all .5s;
+}
+
+.checkbox.expense:checked + .switch::after {
+  background: #D32F2F;
+  left: 23px;
+  transition: all .5s;
+}
+
+.checkbox.expense:checked + .switch {
+  background: #E89292;
+}
+
+.checkbox.rent:checked + .switch {
+  background: #43af7d;
+}
+
+
+.switch {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background: #9d9d9d;
+  width: 2.5em;
+  height: 1em;
+  border-radius: 1.56em;
+}
+
+.first-icon, .third-icon  {
+  color: #9d9d9d;
+  position: absolute;
+  font-size: 1.1em;
+}
+
+.first-icon {
+  top: 5px;
+}
+
+.third-icon {
+  top: 20px
+}
+
+.modal-content {
+  width: 590px !important;
+}
+
+.alert-div {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+
+.btn-width{
+  width: 10rem;
+}
+
+.thead {
+  background: #F1F2F2;
+  font-size: .9em;
+}
+
+td {
+  font-size: 14px;
+  padding: 1em;
+  color: #acacac;
+}

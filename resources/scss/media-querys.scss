@@ -1,0 +1,48 @@
+// media queries for the dashboard and all pages relative
+
+@media (max-width: 768px) {
+
+    body{
+        margin-bottom: 2em;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 20px 20px;
+
+        a.my-brand {
+            width: 15em;
+        }
+
+        ul.nav {
+            display: none;
+        }
+
+        hr {
+            display: none;
+        }
+
+        div.dropdown {
+            position: absolute;
+            top: 31px;
+            right: 35px;
+        }
+    }
+
+    .content {
+        margin-left: auto;
+
+        .filter-box {
+            position: relative;
+            top: -2.35em;
+            right: -30em;
+            width: auto;
+        }
+    }
+
+    .ocult {
+        display: none;
+    }
+}

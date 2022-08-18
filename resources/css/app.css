@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.1;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: #000;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+ul li {
+  padding-right: 1.5em;
+}
+ul li a {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  transition: all 250ms;
+}
+ul li a.hovered:hover {
+  color: #00E2F4;
+}
+ul li a.bg-secondary:hover {
+  box-shadow: 0px 6px rgba(255, 0, 0, 0.4);
+}
+ul li a.bg-tertiary:hover {
+  box-shadow: 0px 6px rgba(0, 226, 244, 0.4);
+}
+
+nav {
+  padding: 1rem 0;
+  width: min(80rem, 95%);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+}
+button.btn {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1.2em;
+  padding: 0.6em 2em 0.6em 2em;
+}
+button:hover {
+  box-shadow: 0px 6px black;
+  transition: all 250ms;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #000;
+}
+
+main {
+  height: 90%;
+  border-bottom: 1px solid #ccc;
+  transition: box-shadow 250ms;
+}
+
+.content {
+  margin-inline: auto;
+}
+
+.highlight {
+  font-size: 2em;
+}
+
+.me {
+  margin-right: 6em;
+}
+
+.bg-tertiary {
+  background: #00E2F4;
+  color: #000;
+}
+
+.bg-secondary {
+  background: #FF0000;
+  color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.45em 0.8em 0.45em 0.8em;
+  border-radius: 0.9em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: min(75rem, 90%);
+  margin-inline: auto;
+}
+
+.spacing > * + * {
+  margin-top: 3.5em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.mt-3 {
+  margin-top: 2.5em;
+}
+
+.mt-4 {
+  margin-top: 4em;
+}
+
+.mt-5 {
+  margin-top: 5em;
+}
+
+.pt-5 {
+  padding-top: 3em;
+}
+
+.text-tertiary {
+  color: #00E2F4;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fs-2 {
+  font-size: 1.3em;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  border-radius: 1em;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
+  max-width: 12rem;
+  padding: 1em;
+}
+.card h5 {
+  font-size: 1em;
+  margin-top: 1rem;
+}
+.card p {
+  font-size: 0.85rem;
+}
+.card:hover {
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);
+  transition: all 250ms;
+}
+.card:hover .card-img {
+  transform: scale(1.1);
+  transition: transform 250ms;
+}
+
+.segmentos {
+  padding-bottom: 3em;
+}

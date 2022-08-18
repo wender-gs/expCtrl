@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 2em;
+  }
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 20px 20px;
+  }
+  .sidebar a.my-brand {
+    width: 15em;
+  }
+  .sidebar ul.nav {
+    display: none;
+  }
+  .sidebar hr {
+    display: none;
+  }
+  .sidebar div.dropdown {
+    position: absolute;
+    top: 31px;
+    right: 35px;
+  }
+  .content {
+    margin-left: auto;
+  }
+  .content .filter-box {
+    position: relative;
+    top: -2.35em;
+    right: -30em;
+    width: auto;
+  }
+  .ocult {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media-query.css.map */

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+  
+  .brand {
+    text-align: center;
+    margin-bottom: 35px; }
+  
+  
+  .box-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; }
+  
+  .box-content {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); }
+  
+  .box-body input {
+    border: none;
+    outline: none;
+    border-radius: 1.2em;
+    padding-left: 40px;
+    height: 2.7em;
+    width: 350px; }
+
+    .box-body label i {
+      position: relative;
+      font-size: 1.2em;
+      left: 15px;
+      top: 34px;
+      color: #bebebe;
+    }
+  
+  .box-body input:focus {
+    box-shadow: none; }
+  
+  .box-body label {
+    font-size: 13px;
+    color: #FFF;
+  }
+  
+  .btn-login {
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    line-height: 40px;
+    border-radius: 20px;
+    background-color: #FF191B;
+    color: #fff;
+    text-transform: uppercase; }
+    .btn-login:hover {
+      background-color: #ff515c;
+      transition: all .5s; }
+  
+  .user-image {
+    border-radius: 50%;
+    width: 45px; }
+  
+  .menu-user {
+    display: none;
+    overflow-x: hidden;
+    width: 200px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), -1px -1px 3px rgba(0, 0, 0, 0.3); }
+    .menu-user ul {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      .menu-user ul li {
+        line-height: 15px; }
+        .menu-user ul li:hover {
+          background-color: #F5F5F5; }
+      .menu-user ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        color: #6D7073; }
+        .menu-user ul li a i {
+          padding-right: 10px; }
+  
+  .active-drop {
+    display: block; }
+  
+  .calendar-transation {
+    display: flex;
+    justify-content: center;
+    padding: 15px; }
+  
+  .view {
+    font-size: 20px; }
+  
+  .view .text-month {
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: capitalize;
+    margin: 0 25px 0 25px;
+    padding: 8px 20px; }
+  
+  .view .text-month .month {
+    font-weight: bold; }
+  
+  .view i {
+    cursor: pointer;
+    padding: 18px;
+    border-radius: 50%; }
+  
+  .view i:hover {
+    background-color: #f5f5f5; }
+  
+  .view.receitas i {
+    color: #4CAF50; }
+  .view.receitas .text-month {
+    color: #4CAF50;
+    border: 2px solid #4CAF50; }
+  
+  .view.despesa-list i {
+    color: #E8562F; }
+  .view.despesa-list .text-month {
+    color: #E8562F;
+    border: 2px solid #E8562F; }
+  
+  .inptSearch {
+    position: relative;
+    height: 45px;
+    border: none;
+    width: 95%;
+    transition: width 10s;
+    color: #636363; }
+    .inptSearch:focus {
+      outline: 0; }
+  
+  .searchClick {
+    width: 380px !important;
+    border-radius: 25px !important;
+    transition: width 1.5s;
+    overflow: hidden;
+    padding: 0px !important; }
+    .searchClick:hover {
+      background-color: #fff !important; }
+    .searchClick i {
+      position: absolute;
+      right: 75px;
+      top: 150px;
+      z-index: 3; }
+  
